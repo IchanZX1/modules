@@ -1,0 +1,28 @@
+{
+  "name": "is-emoji",
+  "version": "0.1.1",
+  "description": "Simple module to testing emoji characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec && echo 👍"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smurthas/is-emoji.git"
+  },
+  "keywords": [
+    "emoji",
+    "text",
+    "string"
+  ],
+  "author": "Simon Murtha Smith <simon@murtha-smith.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smurthas/is-emoji/issues"
+  },
+  "homepage": "https://github.com/smurthas/is-emoji",
+  "devDependencies": {
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.4"
+  }
+}
